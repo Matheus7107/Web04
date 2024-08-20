@@ -2,15 +2,40 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #a091d4;
 }
 
-/* Estilos do menu */
+.images{
+    margin-left: 30%;
+    margin-top: auto;    
+    width: 13.2cm; 
+    height: 7.9cm; 
+    border: 12px solid rgb(115, 11, 235); 
+}
+.logo{
+    margin-left: 34%;
+    margin-top: auto;  
+}
+form{
+    margin-left: auto;
+    flex-grow:initial;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+.form-container{
+    background-color: rgb(188, 140, 228);
+    flex-direction:column-reverse;
+}
 ul.menu {
-    display: flex; /* Usa Flexbox para o layout dos itens do menu */
-    list-style-type: none; /* Remove os marcadores da lista */
+    display: flex; 
+    list-style-type: none; 
     margin: 0;
     padding: 0;
-    background-color: #333; /* Cor de fundo do menu */
+    background-color: #110735; 
 }
 
 ul.menu li {
@@ -18,22 +43,23 @@ ul.menu li {
 }
 
 ul.menu li a {
-    display: block; /* Faz o link preencher o bloco do item */
+    display: block; 
     color: white;
     text-align: center;
-    padding: 14px 20px; /* Espaçamento interno */
-    text-decoration: none; /* Remove o sublinhado dos links */
-    flex: 1; /* Faz com que os itens do menu ocupem espaço igual */
+    padding: 14px 20px; 
+    text-decoration: none; 
+    flex: 1; 
 }
 
 ul.menu li a:hover {
-    background-color: #111; /* Cor de fundo ao passar o mouse */
+    background-color: #3105a8; 
 }
 footer {
-    background-color: #6140ac;
+    background-color: #1b0b55;
     color: white;
     text-align: center;
     padding: 15px;
+    position: fixed;
     position: static;
     bottom: 0;
     width: 100%;
@@ -48,30 +74,41 @@ footer {
 }
 .container {
     width: 80%;
-    margin: 0 auto;
-    padding: 10px;
+    margin:auto;
+    padding: 20px;
+    
+    
 }
+
 div body{
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #f0e8e8;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:center;
     height: 100vh;
     margin: 0cm;
+    
     }
 
 .form-container {
     background: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    max-width: 500px;
-    width: 100%;
+    padding: 50px;
+    margin-left: 27%;
+    max-width: 50%;
+    
 }
 
 h1 {
-    margin-top: 0;
+    margin-left: 40%;
+    margin-top: 10%;
+    font-size: 24px;
+    color: #333;
+}
+h2 {
+    margin-top: 1%;
     font-size: 24px;
     color: #333;
 }
@@ -92,7 +129,7 @@ input, select, textarea {
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
-    box-sizing: border-box; /* Inclui o padding e a borda na largura total do elemento */
+    box-sizing: border-box; 
     font-size: 16px;
 }
 
@@ -125,5 +162,27 @@ textarea {
     font-size: 14px;
 }
 .section{
-    background-color: #b03de6;
+    background-color: #c58be0;
+}
+.section .video{
+    margin-left: 30%;
+    width: 14.80cm; /* Largura dos vídeos em relação ao contêiner pai */
+    height: 8.28cm; /* Mantém a proporção da altura */
+    border: 12px solid rgb(115, 11, 235); /* Borda opcional */
+}
+.button {
+    display: inline-block;
+    padding: 10px 50px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #9730ec;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.button:hover {
+    background-color: #8000b3e8; 
 }

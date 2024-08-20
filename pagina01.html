@@ -11,65 +11,76 @@
         
 </head>
 <body>
-        <header>
-        <ul class="menu"> 
-            <img src="images/logo_menu.jpg" width="50" height="50">   
-            <li><a href="index.html">INÍCIO</a></li>
-            <li><a href="pagina01.html">CONTA EPIC GAMES</a></li>
-            <li><a href="pagina02.html">REQUISITOS</a></li>
-            <li><a href="pagina03.html">QUERO BAIXAR</a></li>
-        </ul>
-        </header>
-        <img src="images/logo_epic.png" alt="Não carregou" width="250" height="150">
-        <div class="form-container">
+    <div class="body">
+            <header>
+            <ul class="menu"> 
+                <img src="images/logo_menu.jpg" width="50" height="50">   
+                <li><a href="index.html">INÍCIO</a></li>
+                <li><a href="pagina01.html">CONTA EPIC GAMES</a></li>
+                <li><a href="pagina02.html">REQUISITOS</a></li>
+                <li><a href="pagina03.html">QUERO BAIXAR</a></li>
+            </ul>
+            </header>
+            <main>
             
-            <h1>Crie sua conta</h1>
-            <form action="/enviar-dados" method="post">
-                <div class="form-group">
-                    <label for="nome">Nome:</label>
-                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
-                </div>
+            <div class="container">
                 
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" placeholder="Digite seu email" required>
-                </div>
-                
-                <div class="form-group">
-                    <label for="idade">Idade:</label>
-                    <input type="number" id="idade" name="idade" min="13" max="120" step="1" placeholder="Digite sua idade" required>
-                </div>
-                
-                <div class="form-group">
-                    <label for="feedback">Feedback:</label>
-                    <textarea id="mensagem" name="mensagem" rows="4" placeholder="Como está sendo suaa experiência pelo site?" required></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="senha">Senha:</label>
-                    <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
-                </div>
-                
-                <div class="form-group">
-                    <button type="submit">Enviar</button>
-                </div>
-            </form>
-        </div>
-    <Footer>
-        Entre em contato conosco através de fortnite@epicgames.com.br <br>
-        Redes Sociais: <br>
-        <a href="https://www.facebook.com/FortniteGame" target="_blank">Facebook</a>
-        <a href="https://www.instagram.com/fortnite/" target="_blank">Instagram</a>
-        <a href="https://www.youtube.com/epicfortnite" target="_blank">Youtube</a>
-    </Footer>
-    <nav>
-        <!-- Navegação do site -->
-    </nav>
-    
-    <main>
-         
-    </main>
+                <div class="form-container">
+                    
+                    <h1>Crie sua conta</h1>
+                    <form action="/enviar-dados" method="post">
+                        <div class="form-group">
+                            
+                            <div class="logo">
+                                <img src="images/logo_epic.png" alt="Não carregou" width="250" height="150">
+                            </div>
 
-    
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="idade">Idade:</label>
+                            <input type="number" id="idade" name="idade" min="13" max="120" step="1" placeholder="Digite sua idade" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="feedback">Feedback:</label>
+                            <textarea id="mensagem" name="mensagem" rows="4" placeholder="Como está sendo sua experiência pelo site?" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="senha">Senha:</label>
+                            <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <button type="submit">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+                
+        
+            
+            </main>
+        <Footer>
+            Entre em contato conosco através de fortnite@epicgames.com.br <br>
+            Redes Sociais: <br>
+            <a href="https://www.facebook.com/FortniteGame" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/fortnite/" target="_blank">Instagram</a>
+            <a href="https://www.youtube.com/epicfortnite" target="_blank">Youtube</a>
+        </Footer>
+        
+            
+        
+
+    </div>  
 </body>    
     
 

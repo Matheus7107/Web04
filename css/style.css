@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos do menu */
+ul.menu {
+    display: flex; /* Usa Flexbox para o layout dos itens do menu */
+    list-style-type: none; /* Remove os marcadores da lista */
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* Cor de fundo do menu */
+}
+
+ul.menu li {
+    margin: 0;
+}
+
+ul.menu li a {
+    display: block; /* Faz o link preencher o bloco do item */
+    color: white;
+    text-align: center;
+    padding: 14px 20px; /* Espaçamento interno */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    flex: 1; /* Faz com que os itens do menu ocupem espaço igual */
+}
+
+ul.menu li a:hover {
+    background-color: #111; /* Cor de fundo ao passar o mouse */
+}
+footer {
+    background-color: #6140ac;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: static;
+    bottom: 0;
+    width: 100%;
+    margin-block: auto;
+}
+.section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
+div body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0cm;
+    }
+
+.form-container {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* Inclui o padding e a borda na largura total do elemento */
+    font-size: 16px;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #007bff; /* Cor da borda ao focar */
+    outline: none; /* Remove o contorno padrão do navegador */
+}
+
+textarea {
+    resize: vertical; /* Permite redimensionar verticalmente */
+}
+
+.form-group button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-group button:hover {
+    background-color: #0056b3;
+}
+
+.form-group .error {
+    color: red;
+    font-size: 14px;
+}
+.section{
+    background-color: #b03de6;
+}
